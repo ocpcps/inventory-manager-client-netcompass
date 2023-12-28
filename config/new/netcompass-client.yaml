@@ -1,0 +1,17 @@
+---
+oauthConfiguration:
+  ssoName: "default"
+  clientId: "inventory-api"
+  clientSecret: "OXy66zx1pZL4HYqmsgWCVa5rgGFNS91U"
+  userName: "testeFront"
+  password: "Front@1234"
+  tokenServerUrl: "https://dev-sso-netcompass.tdigital-vivo.com.br/realms/netcompass/protocol/openid-connect/token"
+  authorizationServerUrl: "https://dev-sso-netcompass.tdigital-vivo.com.br/realms/netcompass/protocol/openid-connect/auth"
+  appKey: null
+  oam: null
+  authScopes:
+  - "read"
+  useRefreshToken: true
+  renewBeforeSecs: 30
+localDbPath: "db"
+netcompassApiUrl: "https://dev-netcompass.tdigital-vivo.com.br/"
